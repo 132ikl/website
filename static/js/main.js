@@ -16,7 +16,7 @@ const splashes = [
   "also try terraria!",
   "anta baka?!",
   "any baconers in chat?",
-  "any female born after 1993 can't cook!",
+  "aurora borealis!",
   "automatic splash scaling!",
   "black lives matter!",
   "daniel naroditsky is a prophet!",
