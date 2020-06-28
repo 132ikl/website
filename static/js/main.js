@@ -52,7 +52,7 @@ const splashes = [
   "wood fired pizza!",
   "{} + [] = 0",
   `now with ${Math.floor(Math.random() * 101)}% less randomness!`,
-  `seen by ${Math.floor(Math.random() * 100) + 1} people!`,
+  `seen by ${Math.floor(Math.random() * 99) + 2} people!`,
 ];
 const splashText = splashes[Math.floor(Math.random() * splashes.length)];
 
