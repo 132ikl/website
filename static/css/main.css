@@ -41,6 +41,7 @@ a:active {
     font-family: "DejaVu Sans", sans-serif;
     font-size: 11pt;
     min-height: 100%;
+    overflow-wrap: break-word;
 }
 
 .content {
