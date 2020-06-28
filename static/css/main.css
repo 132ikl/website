@@ -1,7 +1,8 @@
 :root {
-    --bg: #060e2f;
-    --content-bg: #939bd1;
-    --fg: #3e3e3e;
+    --bg: #000;
+    --content-bg: #393939;
+    --fg: #ccd;
+    --accent: #b2aff9;
 }
 
 body {
@@ -9,18 +10,27 @@ body {
     margin: 0;
 }
 
-p {
+.content>p {
     margin: 4px;
     font-family: "DejaVu Sans Mono", monospace;
     letter-spacing: -0.6px;
+    margin-left: 2em;
 }
+
+.content>.heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3vh;
+    margin-left: 0;
+}
+
 
 a,
 a:link,
 a:visited,
 a:hover,
 a:active {
-    color: var(--bg);
+    color: var(--accent);
 }
 
 .nomargin {
@@ -52,7 +62,7 @@ a:active {
     color: #FFFF00;
     text-shadow: 1px 1px 0px #000;
     position: relative;
-    left: 325px;
+    left: 70px;
     bottom: 20px;
     -webkit-animation: splash .25s;
     animation: splash .25s;
@@ -65,7 +75,6 @@ a:active {
     line-height: 1em;
     max-height: 1em;
     margin: 0;
-    letter-spacing: 0px;
     white-space: nowrap;
 }
 

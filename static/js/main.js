@@ -59,17 +59,15 @@ const splashes = [
 ];
 const splashText = splashes[Math.floor(Math.random() * splashes.length)];
 
-let splash = document.createElement("p")
-splash.innerHTML = splashText;
-splash.className = "splash";
-
-let container = document.getElementById("splash-container");
+let splash = document.getElementById("splash")
+splash.textContent = splashText;
 
 // fit text
+let container = document.getElementById("splash-container");
 const width = container.offsetWidth;
 const textConstant = .65; // fun magic number for Minecraftia
-let size = width / (textConstant * splash.innerText.length);
+console.log(splash.textContent.length);
+let size = width / (textConstant * splash.textContent.length);
 size = clamp(size, 1, 25);
 
-container.append(splash);
 splash.style.fontSize = size + 'px';
