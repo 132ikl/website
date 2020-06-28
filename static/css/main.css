@@ -1,31 +1,50 @@
+:root {
+    --bg: #060e2f;
+    --content-bg: #939bd1;
+    --fg: #3e3e3e;
+}
+
 body {
-    background-color: #000726;
+    background-color: var(--bg);
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p {
+    margin: 4px;
+    font-family: "DejaVu Sans Mono", monospace;
+    letter-spacing: -0.6px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: var(--bg);
+}
+
+.nomargin {
     margin: 0;
 }
 
 .container {
     max-width: 800px;
-    margin: 10vh auto;
+    margin: 3vh auto;
 }
 
 .terminal {
-    color: #32333c;
-    background-color: #939bd1;
-    border: 4px solid #32333c;
+    color: var(--fg);
+    background-color: var(--content-bg);
+    border: 4px solid var(--fg);
     padding: 20px;
     display: block;
-    font-family: "DejaVu Sans", monospace;
+    font-family: "DejaVu Sans", sans-serif;
     font-size: 11pt;
     min-height: 100%;
+}
+
+.content {
+    margin-top: 5vh;
 }
 
 .splash {
@@ -49,6 +68,7 @@ h6 {
     margin: 0;
 }
 
+
 @keyframes splash {
     0% {
         transform: scale(0.925) rotate(-20deg)
@@ -62,7 +82,6 @@ h6 {
 #splash-container {
     max-width: 300px;
     width: 100%;
-    height: 100%;
     position: absolute;
 }
 

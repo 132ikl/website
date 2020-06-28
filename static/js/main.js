@@ -3,13 +3,17 @@ function clamp(num, min, max) {
 }
 
 const splashes = [
-  "now with 100% less static site generators!",
+  "13% javascript!",
   "automatic splash scaling!",
+  "dark mode!",
+  "don't run pacman -Syy!",
   "i use arch btw",
+  "now with 100% less static site generators!",
   "open source!",
-  "trans rights!",
+  "opencv is fun to compile!",
   "this text is hard to read at the default size but if you zoom in you can read it fine!",
-  "14% javascript!",
+  "trans rights!",
+  "try minecraft!",
 ];
 const splashText = splashes[Math.floor(Math.random() * splashes.length)];
 
