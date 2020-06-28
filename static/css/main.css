@@ -61,12 +61,12 @@ a:active {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     font-family: "Minecraftia", "DejaVu Sans", monospace;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
     display: block;
     line-height: 1em;
     max-height: 1em;
     margin: 0;
+    letter-spacing: 0px;
+    white-space: nowrap;
 }
 
 
