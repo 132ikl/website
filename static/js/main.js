@@ -3,7 +3,7 @@ function clamp(num, min, max) {
 }
 
 const splashes = [
-  "117 bomb pomps!",
+  "117 BOMB pops!",
   "28% javascript!",
   "2 + 2 = 10... in base 4!",
   "[] + [] = \"\"",
