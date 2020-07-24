@@ -45,6 +45,7 @@ const splashes = [
   "she's so... heavy!",
   "since 2018!",
   "Sorry Link, I can't give credit!",
+  "stolen from hazel!",
   "thank you guude!",
   "the part where he kills you!",
   "THE PLAN IS SIMPLE!",
